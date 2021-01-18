@@ -2,7 +2,7 @@
 
 |   快捷键   |             描述             |
 | :--------: | :--------------------------: |
-| Ctrl+Alt+O | 优化import(除去未使用的导入) |
+|  |  |
 |Alt+向左箭头|返回上次光标位置              |
 |Alt+向右箭头|返回至后一次光标位置          |
 |Ctrl+Shift+Backspace|返回上次编辑位置       |
@@ -39,13 +39,13 @@
 |Ctrl+O|重写基类方法                        |
 |Ctrl+I|实现基类或接口中的方法                             |
 |Alt+Insert|Java Bean 中常见的 toString()、hashCode()、equals() 以及所有的get/set 方法<br>都可以自动生成  |
-|Ctrl+Alt+T|将选中的代码使用if，while，try/catch等包装        |
+||        |
 |Ctrl+Shitf+Delete|去除相关的包装代码         |
 |Alt+/|自动完成                             |
 |Alt+Enter|自动提示完成，抛出异常          |
 |Ctrl+J|插入Live Template 快速插入一行或者多行代码           |
 |Ctrl+Alt+J|使用Live Template包装                        |
-|Ctrl+Alt+O|优化import                        |
+||                        |
 |Ctrl+]|快速跳转至诸如{}围起来的代码块的结尾处      |
 |Ctrl+[|快速跳转至诸如{}围起来的代码块的开头处        |
 |Ctrl+Shift+Enter|将输入的if，for，函数等等补上{}或者；使代码语句完整    |
@@ -64,16 +64,16 @@
 |Ctrl+Shift+F6|更改类型                    |
 - 基本快捷键
 
-  |    快捷键    | 描述                 |
-  | :----------: | -------------------- |
-  |    Ctrl+C    | 复制                 |
-  |    Ctrl+X    | 剪切                 |
-  |    Ctrl+V    | 粘贴                 |
-  |    Ctrl+Z    | 撤销                 |
-  |    Ctrl+D    | 复制当前行           |
-  |    Ctrl+Y    | 删除当前行           |
-  | Ctrl+Shift+J | 将选中的行合并成一行 |
-  | Ctrl+Shift+Z | 重做                 |
+  |    快捷键    | 描述                                                         |
+  | :----------: | ------------------------------------------------------------ |
+  |    Ctrl+C    | 复制                                                         |
+  |    Ctrl+X    | 剪切                                                         |
+  |    Ctrl+V    | 粘贴                                                         |
+  |    Ctrl+Z    | 撤销                                                         |
+  |    Ctrl+D    | 复制当前行                                                   |
+  |    Ctrl+Y    | 删除当前行                                                   |
+  | Ctrl+Shift+J | 将选中的行合并成一行                                         |
+  | Ctrl+Shift+Z | 重做 (对撤销的内容进行回滚)<br>Windows对撤销的内容回滚的快捷键是Ctril+Y |
   
 - 查找
 
@@ -109,7 +109,14 @@
   | Ctrl+Alt+L | 格式化代码 |
   | Ctrl+Alt+I | 自动缩进行 |
 
-- 
+- 代码快捷键
+
+  | 快捷键     | 描述                                       |
+  | ---------- | ------------------------------------------ |
+  | Ctrl+Alt+O | 优化import(除去未使用的导入)               |
+  | Ctrl+Alt+T | 将选中的代码使用if，while，try/catch等包装 |
+
+  
 
 
 # idea常用插件
